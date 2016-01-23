@@ -1,0 +1,12 @@
+/*
+Theme Name: Start SMAK ONE
+Theme URI: http://smakone.org
+Author: START
+Author URI: http://start.smakone.org
+Description: START custom made theme for smakone.org
+License: GNU General Public License
+License URI: license.txt
+Tags: smakone, start, penabur
+*/
+@import url('css/bootstrap.min.css');
+@import url('css/custom-style.css');
