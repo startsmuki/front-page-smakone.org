@@ -5,6 +5,11 @@
 |----|---|
 |wordpress template|Theme utama wordpress|
 
+### Konsep template
+
++ Magazine layout
++ Modern feel
+
 ## Dilarang
 1. Mengubah bootstrap.min.css
 2. Mengubah style.css (CSS sendiri masukan ke custom-style.css)
