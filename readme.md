@@ -1,11 +1,11 @@
 # Readme
 
-## Struktur proyek
+## Struktur Proyek
 |Folder/file|isi|
 |----|---|
 |wordpress template|Theme utama wordpress|
 
-### Konsep template
+### Konsep Template
 
 + Magazine layout
 + Modern feel
