@@ -2,7 +2,7 @@
 /* css untuk footer */
 footer {
 	color:white;
-	height:90px;
+	height:120px;
 	background-color:#222222;
 }
 #footlink {
@@ -12,6 +12,10 @@ footer {
 #footlink {
 	text-align:left;
 }
+}
+#footlink2 {
+	text-align:right;
+	
 }
 .vertical-align {
     display: flex;

@@ -3,23 +3,30 @@
 <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 
 <footer>
+<!--TITLE FOOTER-->
 <div class="container-fluid">
 		<div class="row">
-			<div id="footlink" class="col-xs-12">
-				<p style="margin: 10px 0 10px 0;">&copy; 2015 START</p>
+			<div id="footlink" class="col-xs-6">
+				<p style="margin: 10px 0 10px 0;"><strong>&copy; 2015 START</strong></p>
+			</div>
+			<div id="footlink2" class="col-xs-6"><p style="margin: 10px 0 10px 0;"><strong>SOCIAL MEDIA</strong></p>
 			</div>
 		</div>
+		<!--END OF TITLE OF FOOTER-->
 		<div class="row">
-			<div id="footlink" class="col-sm-10">
-					<a href="">footer 1</a>
-					<a href="">footer 1</a>
-					<a href="">footer 1</a>
-			</div>
-			<div class="col-sm-2 text-center">
-				<p>some content</p>
-			</div>
-		</div>
-	</div>
+			<div id="footlink" class="col-sm-6">
+					<a href="">LOCATION</a>
+					<a href="">CONTACT INFO</a>
+					<a href="">footer 3</a>
+					</div>
+		<div class="row">
+			<div id="footlink2" class="col-sm-6">
+					<a href="">Socmed1</a>
+					<a href="">Socmed2</a>
+					<a href="">Socmed3</a>
+					</div>
+			
+			
 </footer>
 </body>
 </html>
