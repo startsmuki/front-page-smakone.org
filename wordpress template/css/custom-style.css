@@ -1,9 +1,18 @@
-/* Custom CSS here*/
+html{
+	position:relative;
+	min-height: 100%;
+}
+body{
+	margin: 0 0 120px;
+}
 /* CSS untuk footer */
 footer {
 	color:white;
 	height:120px;
 	background-color:#222222;
+	position:absolute;
+	width:100%;
+	bottom:0px;
 }
 .footer-link {
 	text-align:center;
