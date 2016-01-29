@@ -1,24 +1,23 @@
 /* Custom CSS here*/
-/* css untuk footer */
+/* CSS untuk footer */
 footer {
 	color:white;
 	height:120px;
 	background-color:#222222;
 }
-#footlink {
+.footer-link {
 	text-align:center;
 }
 @media screen and (min-width:768px){
-#footlink {
+#footer-kiri {
 	text-align:left;
 }
-}
-#footlink2 {
+#footer-kanan {
 	text-align:right;
-	
 }
-.vertical-align {
-    display: flex;
-    align-items: center;
 }
 /* akhir dari footer... Yay */
+.vertical-align {
+	display: flex;
+  align-items: center;
+}
