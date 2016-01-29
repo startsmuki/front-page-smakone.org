@@ -4,6 +4,7 @@
 |Folder/file|isi|
 |----|---|
 |wordpress template|Theme utama wordpress|
+|Frontpage|Halaman depan web|
 
 ### Konsep Template
 
@@ -35,4 +36,4 @@ created by START for Smukie
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-*Update terakhir 24 Januari 2016*
+*Update terakhir 29 Januari 2016*
