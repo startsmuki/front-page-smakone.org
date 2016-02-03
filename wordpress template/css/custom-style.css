@@ -3,12 +3,12 @@ html{
 	min-height: 100%;
 }
 body{
-	margin: 0 0 120px;
+	margin: 0 0 90px;
 }
 /* CSS untuk footer */
 footer {
 	color:white;
-	height:120px;
+	height:90px;
 	background-color:#222222;
 	position:absolute;
 	width:100%;
