@@ -45,10 +45,17 @@ font-family: 'Lato', bold;
 
 .mynavbar{
 	background-color: #002147;
+	box-shadow: 2px 2px 5px #888888;
 }
 
 .mynavbar a{
-	color: #ffffff;
+	color: #E8F1F2;
+}
+
+
+#mynavbar-nav li a:hover{
+	background-color: #336699;
+	transition: background-color 0.2s;
 }
 
 #mynavbar-title{

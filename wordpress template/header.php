@@ -34,7 +34,7 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" id="mynavbar-nav">
                     <li class="active"><a href="#"><strong>ADMISSIONS</strong><span class="sr-only">(current)</span></a></li>
                     <li><a href="#"><strong>RESEARCH</strong></a></li>
                     <li class="dropdown">
@@ -50,6 +50,7 @@
                         </ul>
                     </li>
                 </ul>
+                <!-- Kayaknya belom perlu
                 <form class="navbar-form navbar-right" role="search">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search">
@@ -69,6 +70,7 @@
                         </ul>
                     </li>
                 </ul>
+            -->
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
