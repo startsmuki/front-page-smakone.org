@@ -20,7 +20,7 @@ This project uses bootstrap avaiable at https://github.com/twbs/bootstrap
 
 created by START for Smukie
 
-    Copyright (C) 2015 START
+    Copyright (C) 2015-2016 START
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
