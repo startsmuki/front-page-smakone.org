@@ -6,7 +6,7 @@
             <p>some content</p>
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <div class="post-box">
-                    <h1 class="post-title post-header"><?php the_title(); ?></h1>
+                    <h1 class="post-title post-header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
                     <div class="row post-header">
                         <div class="col-sm-6">
                             <p class="post-author">By <?php the_author(); ?></p>
@@ -18,7 +18,10 @@
                     <hr class="post-hr"/>
                     <p class="post-content"><?php the_content(__('(more...)')); ?></p>
                 </div>
-            <?php endwhile; else: ?>
+            <?php endwhile; ?>
+                <p><?php next_posts_link("Pos lama"); ?></p>
+                <p><?php previous_posts_link("Pos baru"); ?></p>
+            <?php else: ?>
             <p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php endif; ?>
         </div>
         <div class="col-sm-3">
