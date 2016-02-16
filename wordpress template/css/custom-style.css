@@ -5,6 +5,7 @@ html{
 body{
 	margin: 0 0 90px;
 }
+
 /* CSS untuk footer */
 footer {
 	color:white;
@@ -26,41 +27,47 @@ footer {
 }
 }
 /* akhir dari footer... Yay */
+
 .vertical-align {
 	display: flex;
   align-items: center;
-
-
 }
-/*Style for navbar*/
 
+/*Style for navbar*/
 .navbar-simple{
 height: 100px;
 width: auto;
 background-color: #34495E;
 border-radius: 0px !important;
 font-family: 'Lato', bold;
-
 }
-
 .mynavbar{
 	background-color: #002147;
 	box-shadow: 2px 2px 5px #888888;
 }
-
 .mynavbar a{
 	color: #E8F1F2;
 }
-
-
-#mynavbar-nav li a:hover{
+#mynavbar-nav li a:hover,#mynavbar-nav li a:focus, #mynavbar-nav .open > a:link, #mynavbar-nav .open > a{
 	background-color: #336699;
+	color:white;
+	transition: color 0.2s;
 	transition: background-color 0.2s;
 }
-
 #mynavbar-title{
 	font-size: 40px;
 }
+/*Akhir dari navbar*/
+
+/*CSS untuk post*/
+.post-box{
+	box-shadow: 1px 1px 2px #888888;
+}
+
+
+
+
+
 /* SEMENTARA DI NONAKTIFKAN
 .navbar-simple .brand {
  	padding-top: 15px;
