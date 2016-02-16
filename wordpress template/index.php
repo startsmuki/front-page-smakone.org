@@ -14,6 +14,7 @@
                         <div class="col-sm-6">
                             <p class="post-date">Posted on <?php the_time('F jS, Y') ?></p>
                         </div>
+                    </div>
                     <p class="post-content"><?php the_content(__('(more...)')); ?></p>
                 </div>
             <?php endwhile; else: ?>
