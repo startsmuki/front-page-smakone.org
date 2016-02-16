@@ -79,6 +79,14 @@ font-family: 'Lato', bold;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
+.post-pagination{
+	width:300px;
+	margin:0px auto 0px auto;
+}
+.post-pagination p{
+	float:left;
+	margin-left: 10px;
+}
 
 
 /* SEMENTARA DI NONAKTIFKAN

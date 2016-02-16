@@ -19,8 +19,11 @@
                     <p class="post-content"><?php the_content(__('(more...)')); ?></p>
                 </div>
             <?php endwhile; ?>
-                <p><?php next_posts_link("Pos lama"); ?></p>
-                <p><?php previous_posts_link("Pos baru"); ?></p>
+                <div class="post-pagination">
+                        <p><?php next_posts_link("Pos lama"); ?></p>
+                        <p>Halaman <?php echo("$page"); ?> dari <?php global $wp_query;echo($wp_query->max_num_pages); ?></p>
+                        <p><?php previous_posts_link("Pos baru"); ?></p>
+                </div>
             <?php else: ?>
             <p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php endif; ?>
         </div>
