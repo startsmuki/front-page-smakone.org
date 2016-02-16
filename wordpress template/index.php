@@ -6,10 +6,10 @@
             <p>some content</p>
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <div class="post-box">
-                    <h1 class="post-title"><?php the_title(); ?></h1>
-                    <div class="row">
+                    <h1 class="post-title post-header"><?php the_title(); ?></h1>
+                    <div class="row post-header">
                         <div class="col-sm-6">
-                            <p class="post-author">By <?php get_the_author_id(); ?></p>
+                            <p class="post-author">By <?php the_author(); ?></p>
                         </div>
                         <div class="col-sm-6">
                             <p class="post-date">Posted on <?php the_time('F jS, Y') ?></p>
