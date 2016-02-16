@@ -15,6 +15,7 @@
                             <p class="post-date">Posted on <?php the_time('F jS, Y') ?></p>
                         </div>
                     </div>
+                    <hr class="post-hr"/>
                     <p class="post-content"><?php the_content(__('(more...)')); ?></p>
                 </div>
             <?php endwhile; else: ?>
