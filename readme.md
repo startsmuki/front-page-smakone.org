@@ -11,6 +11,12 @@
 + Magazine layout
 + Modern feel
 
+## Screenshot template sekarang
+Screenshot yang ditampilkan mungkin bukan meruapakan versi terbaru!
+![Current screenshot](https://raw.githubusercontent.com/startsmuki/front-page-smakone.org/master/wordpress%20template/screenshot.png)
+
+
+
 ## Dilarang
 1. Mengubah bootstrap.min.css
 2. Mengubah style.css (CSS sendiri masukan ke custom-style.css)
